@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Market Basics Research Report</title>
+    <style>
+        /* Base Styling for PDF Readability */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px 40px;
+            background-color: #fff;
+            font-size: 12pt;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+            margin-top: 30px;
+            font-size: 22pt;
+        }
+        
+        h2 {
+            color: #2980b9;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+            margin-top: 25px;
+            font-size: 16pt;
+        }
+        
+        h3 {
+            color: #16a085;
+            margin-top: 20px;
+            font-size: 14pt;
+        }
+        
+        p {
+            margin-bottom: 1em;
+            text-align: justify;
+        }
+        
+        .report-header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        .report-header h1 {
+            border-bottom: none;
+            margin-bottom: 5px;
+        }
+        
+        .meta-info {
+            font-size: 0.9em;
+            color: #7f8c8d;
+            font-style: italic;
+        }
+        
+        .highlight {
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-left: 4px solid #3498db;
+            margin: 15px 0;
+        }
+        
+        .comparison-container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin: 20px 0;
+        }
+        
+        .market-box {
+            flex: 1 1 45%;
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 0 10px 20px 10px;
+            min-width: 300px;
+        }
+        
+        .market-box h3 {
+            text-align: center;
+            color: #2c3e50;
+            background-color: #e9ecef;
+            margin: -15px -15px 15px -15px;
+            padding: 10px;
+            border-radius: 5px 5px 0 0;
+        }
+        
+        ul {
+            padding-left: 20px;
+        }
+        
+        li {
+            margin-bottom: 5px;
+        }
+        
+        .sebi-functions {
+            background-color: #e8f4f8;
+            padding: 20px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        
+        .conclusion {
+            background-color: #f1f8e9;
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 30px;
+            border-left: 4px solid #689f38;
+        }
+        
+        @media print {
+            body {
+                padding: 10px;
+                font-size: 11pt;
+            }
+            
+            .market-box {
+                page-break-inside: avoid;
+            }
+            
+            h1, h2, h3 {
+                page-break-after: avoid;
+            }
+            
+            p, ul {
+                page-break-inside: avoid;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="report-header">
+        <h1>Stock Market Basics Research Report</h1>
+        <p class="meta-info">Understanding Primary & Secondary Markets and the Regulatory Role of SEBI in India</p>
+        <p class="meta-info">Date: October 26, 2023</p>
+    </div>
+
+    <section id="introduction">
+        <h2>Introduction to the Stock Market</h2>
+        <p>The <strong>stock market</strong> represents a complex ecosystem where securities, primarily stocks (equity shares), are bought, sold, and issued. It functions as a vital component of a <strong>modern capitalist economy</strong>, providing companies with access to capital in exchange for giving investors a slice of ownership. Essentially, it is a network of exchanges and markets facilitating the trading of financial instruments.</p>
+        
+        <div class="highlight">
+            <p>Its core purpose is to enable <strong>capital formation</strong>—allowing businesses to raise money for expansion and innovation—while offering individuals and institutions opportunities for <strong>investment and wealth creation</strong>. By connecting those who need capital (companies and governments) with those who have it (investors), the stock market acts as a barometer for economic health and a platform for price discovery based on supply, demand, and perceived value.</p>
+        </div>
+    </section>
+
+    <section id="markets">
+        <h2>Primary Market vs. Secondary Market</h2>
+        <p>The stock market is divided into two fundamental segments: the primary market and the secondary market. They serve distinct but interconnected purposes in the lifecycle of a security.</p>
+
+        <div class="comparison-container">
+            <div class="market-box">
+                <h3>The Primary Market</h3>
+                <p><strong>Where securities are created and sold to investors for the first time.</strong> Companies raise fresh capital directly from investors. The flow of funds is from investors to the issuing company.</p>
+                <ul>
+                    <li><strong>Key Function:</strong> Capital raising for issuers.</li>
+                    <li><strong>Common Instruments:</strong> Initial Public Offerings (IPOs), Follow-on Public Offers (FPOs), Rights Issues.</li>
+                    <li><strong>Price Determination:</strong> Set by the company/investment bankers before sale.</li>
+                    <li><strong>Key Participants:</strong> Issuing Company and Investors.</li>
+                    <li><strong>Example:</strong> A company's IPO.</li>
+                </ul>
+            </div>
+
+            <div class="market-box">
+                <h3>The Secondary Market</h3>
+                <p><strong>Where previously issued securities are bought and sold among investors.</strong> The issuing company is not directly involved and does not receive money from these trades.</p>
+                <ul>
+                    <li><strong>Key Function:</strong> Provides liquidity and continuous price discovery.</li>
+                    <li><strong>Common Venues:</strong> Stock exchanges like the BSE and NSE.</li>
+                    <li><strong>Price Determination:</strong> Fluctuates based on market forces (supply & demand).</li>
+                    <li><strong>Key Participants:</strong> Investors trading with other investors.</li>
+                    <li><strong>Example:</strong> Buying shares of a company like Reliance on the NSE.</li>
+                </ul>
+            </div>
+        </div>
+        
+        <p><strong>Interdependence:</strong> A healthy, transparent <strong>secondary market</strong> is crucial for the success of the <strong>primary market</strong>. Investors are only willing to commit capital in an IPO if they are confident they can later sell those shares easily. This ecosystem ensures continuous capital availability for businesses and investment opportunities for the public.</p>
+    </section>
+
+    <section id="sebi">
+        <h2>Role of SEBI in India</h2>
+        <p>The <strong>Securities and Exchange Board of India (SEBI)</strong> is the statutory regulatory body established in 1992 to oversee and regulate India's securities and commodity markets. Its creation was driven by the need to protect investors from malpractices and to promote the orderly development of the market.</p>
+
+        <div class="sebi-functions">
+            <h3>Core Objectives and Functions</h3>
+            <p>SEBI's mandate is to protect investors and regulate the securities market. It achieves this through three primary functions:</p>
+            <ul>
+                <li><strong>Protective Functions:</strong> Safeguarding investor interests by preventing fraud (insider trading, price rigging), promoting transparency through disclosure norms, educating investors, and redressing grievances via the SCORES platform.</li>
+                <li><strong>Regulatory Functions:</strong> Framing rules and regulating all market participants including stockbrokers, mutual funds, portfolio managers, and stock exchanges. It also regulates corporate takeovers and mergers.</li>
+                <li><strong>Developmental Functions:</strong> Fostering growth and innovation by promoting new institutions, introducing new financial products (like derivatives, REITs), and conducting research.</li>
+            </ul>
+            <p><strong>Powers and Structure:</strong> SEBI is empowered with quasi-legislative (draft regulations), quasi-executive (investigate and enforce), and quasi-judicial (pass rulings) powers. This comprehensive authority allows it to effectively police the market.</p>
+        </div>
+        
+        <p><strong>Impact on the Indian Market:</strong> SEBI has been instrumental in transforming the Indian capital market into a more mature, transparent, and reliable system. By enforcing stringent norms and continuously evolving its regulations, SEBI has significantly boosted both domestic and international investor confidence.</p>
+    </section>
+
+    <section id="conclusion">
+        <div class="conclusion">
+            <h2>Conclusion</h2>
+            <p>In summary, the stock market is a critical engine for economic growth, comprising the <strong>primary market</strong> for capital raising and the <strong>secondary market</strong> for providing liquidity. Their symbiotic relationship facilitates efficient capital allocation. In India, this entire ecosystem operates under the vigilant supervision of <strong>SEBI</strong>, which ensures market integrity, protects investors, and fosters development. For any participant—from a company seeking funds to an individual investing savings—understanding this interplay of markets and regulation is fundamental to navigating the world of finance.</p>
+        </div>
+    </section>
+</body>
+</html>
